@@ -109,10 +109,15 @@ Company → Provides Software → Users Hold Bitcoin → Technology Regulation O
 
 **KYC/AML Implementation**:
 
-- **User Verification**: For app access and guardian verification
-- **Transaction Monitoring**: Users' Bitcoin transactions are publicly auditable
-- **Reporting**: Suspicious activity detection capabilities
-- **Jurisdiction Compliance**: Adaptable to local regulations
+- **Enhanced User Verification**: Multi-tier verification for app access and account creation
+- **Guardian Identity Verification**: Robust KYC procedures for guardian registration and validation
+- **Multi-Factor Authentication (MFA)**: Mandatory MFA for all user accounts and guardian activities
+- **Transaction Monitoring**: Users' Bitcoin transactions are publicly auditable on the blockchain
+- **Suspicious Activity Reporting**: Automated detection and reporting capabilities for unusual patterns
+- **Geographic Compliance**: Adaptable KYC/AML procedures based on user jurisdiction
+- **Identity Document Verification**: Integration with trusted identity verification services
+- **Ongoing Monitoring**: Continuous compliance monitoring and periodic re-verification
+- **Audit Trail**: Complete record of all verification and compliance activities
 
 ### Q: What if governments freeze or seize funds?
 
@@ -224,6 +229,14 @@ Phase 3: Mainstream → Scale through simplicity
 3. **Community Engagement**: Bitcoin developer community involvement
 4. **Proof of Work**: Demonstrable working implementation
 
+**App Distribution & Security Strategy**:
+
+- **Exclusive Distribution**: Apps distributed only through official Google Play Store and Apple App Store to reduce attack surface
+- **Verified Channels**: Official app store accounts with verified publisher status and security badges
+- **Code Signing**: All applications signed with official certificates for authenticity verification
+- **Update Security**: Automatic updates through official channels only, with user verification prompts
+- **User Education**: Clear communication about official download sources and warning signs of impersonation
+
 ---
 
 ## 6. Business Model & Growth Strategy
@@ -322,6 +335,27 @@ Year 6-10: Global Adoption (10M-1B users)
 
 - **Mitigation**: Technology-focused business model, jurisdiction flexibility
 - **Testing**: Legal review in multiple jurisdictions
+
+**Risk 5: App Impersonation and Domain Attacks**
+
+- **Description**: Malicious actors creating fake apps on Google Play Store or App Store with similar logos, titles, and descriptions to trick users into downloading compromised versions
+- **Additional Threat**: Domain redirect/URL forwarding attacks using similar domains (bitcoinbunker.com, bitconibunker.net, btcbunker.com, etc.) where attackers setup fake domains and provide branded apps for download to gain mobile device access
+- **Specific Domain Threats**: Common impersonation domains include:
+  - bitcoinbunker.com, bitconibunker.net, bitcoinbunker.io, bitcoinbunker.biz
+  - btcbunker.com, btcbunker.net, btcbunker.io, btcbunker.biz
+  - Other variations with common typos and alternative extensions
+- **Mitigation**: 
+  - Official app distribution exclusively through verified Google Play Store and Apple App Store accounts
+  - App signing with official certificates and verification badges
+  - Clear branding guidelines and user education about official channels
+  - Regular monitoring of app stores for impersonation attempts
+  - Domain protection strategy including registration of common variations and extensions
+  - Comprehensive website security protections against domain redirect attacks
+  - Multi-factor authentication (MFA) for all user accounts
+  - Enhanced KYC/AML procedures for guardian verification and compliance
+  - Legal enforcement against domain squatting and trademark infringement
+  - User communication channels to report suspicious apps or domains
+- **Testing**: Regular security audits, penetration testing, domain monitoring, and user awareness campaigns
 
 ---
 
@@ -464,6 +498,6 @@ If regulatory pressure increases → Non-custodial becomes advantageous
 
 _This document provides comprehensive answers to investor questions while maintaining competitive advantage through strategic information disclosure. Detailed technical specifications and implementation roadmaps available under appropriate NDAs for qualified investors._
 
-**Document Version**: 1.0  
-**Date**: June 19, 2025  
+**Document Version**: 1.1  
+**Date**: June 27, 2025  
 **Classification**: Investor Q&A - Technical Deep Dive

@@ -105,6 +105,16 @@ Our solution operates on these verified principles:
 - Compatible with existing Bitcoin infrastructure
 - Preserves all Bitcoin security properties
 
+**Application Security Framework**:
+
+- Exclusive distribution through verified app stores (Google Play Store and Apple App Store)
+- Code signing with official certificates and publisher verification
+- Multi-factor authentication (MFA) for all user accounts
+- Enhanced KYC/AML procedures for guardian verification and compliance
+- Protection against app impersonation through official branding and user education
+- Domain security measures to prevent redirect/URL forwarding attacks
+- Regular security monitoring and vulnerability assessments
+
 ### 3.3 Novel Contribution Claims
 
 **Claim 1**: We have solved the key distribution problem for Bitcoin inheritance while maintaining user sovereignty.
@@ -216,6 +226,14 @@ Our solution operates on these verified principles:
 
 **Audit Requirements**: Ongoing security validation and improvement processes.
 
+**Supply Chain Security**:
+
+- **Software Bill of Materials (SBOM)**: Complete inventory of all software components, libraries, and dependencies with version tracking and vulnerability monitoring
+- **Cryptographic Bill of Materials (CBOM)**: Detailed catalog of all cryptographic assets, algorithms, certificates, and keys used throughout the system
+- **Dependency Management**: Continuous monitoring of third-party components for security vulnerabilities and updates
+- **Build Pipeline Security**: Secure software development lifecycle with verified build processes and code signing
+- **Component Verification**: Regular auditing of all system components and their security posture
+
 ### 6.3 Operational Considerations
 
 **User Error Handling**: Robust error prevention and recovery mechanisms.
@@ -285,6 +303,6 @@ The combination of proven technical capability, novel algorithmic approaches, an
 
 _This document provides evidence of technical capability while protecting competitive advantages. Detailed technical specifications and implementation details available only under appropriate NDAs for qualified investors._
 
-**Document Version**: 1.0  
-**Date**: June 19, 2025  
+**Document Version**: 1.1  
+**Date**: June 27, 2025  
 **Classification**: Technical Capability Demonstration
